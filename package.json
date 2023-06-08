@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "threads": "set UV_THREADPOOL_SIZE=12 && node threads.js",
-    "async": "node async.js"
+    "async": "node async.js",
+    "multitask": "set UV_THREADPOOL_SIZE=4 && node multitask.js"
   },
   "keywords": [],
   "author": "",
