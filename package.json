@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "threads": "set UV_THREADPOOL_SIZE=12 && node threads.js",
     "async": "node async.js",
-    "multitask": "set UV_THREADPOOL_SIZE=4 && node multitask.js"
+    "multitask": "set UV_THREADPOOL_SIZE=4 && node multitask.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
