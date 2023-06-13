@@ -25,9 +25,9 @@ const main = async () => {
 		const start = Date.now();
 		const values = await Promise.all([
 			doFibonacci(40),
-			// doFibonacci(40),
-			// doFibonacci(40),
-			// doFibonacci(40),
+			doFibonacci(40),
+			doFibonacci(40),
+			doFibonacci(40),
 			// doFibonacci(40),
 			// doFibonacci(40),
 			// doFibonacci(40),
