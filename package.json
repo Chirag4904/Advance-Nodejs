@@ -8,12 +8,14 @@
     "threads": "set UV_THREADPOOL_SIZE=12 && node threads.js",
     "async": "node async.js",
     "multitask": "set UV_THREADPOOL_SIZE=4 && node multitask.js",
-    "start": "node index.js"
+    "start": "set UV_THREADPOOL_SIZE=6 && node index.js",
+    "fibworker": "set UV_THREADPOOL_SIZE=4 && node ./fibWorker/fibWorker.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
   }
 }
